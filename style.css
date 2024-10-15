@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Centered Box */
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  /* Word Line */
+  #word-line {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    min-height: 50px;
+  }
+  
+  /* Typing Input */
+  #typing\-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  /* Typing Input on Focus */
+  #typing-input:focus {
+    border-color: #45a049;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Stats Display */
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Restart Button */
+  #restart-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  /* Button Hover Effect */
+  #restart-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Completion Message */
+  #completion-message {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #ff5722;
+  }
+  
