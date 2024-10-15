@@ -16,15 +16,16 @@ const words = [
   "Kaushal",
   "Honey",
   "Heer",
-  // "Meet",
-  // "Jaimin",
-  // "Khushi",
-  // "Nitya",
+  "Meet",
+  "Jaimin",
+  "Khushi",
+  "Nitya",
   "Krish",
-  // "Smith",
+  "Smith",
   "Devanshi",
-  // "Dekavadiya",
+  "Dekavadiya",
   "Deep",
+  "Pratham",
 ];
 
 let line = "";
